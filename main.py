@@ -61,10 +61,8 @@ async def sum(ctx, a: int, b: int): # adds two numbers
 
 @bot.command()
 async def div(ctx, a: int, b: int): # divides two numbers
-    
-    
-    if a or b == 0:
-        await ctx.send("dont bro")
+    if b == 0:
+        await ctx.send("Cannot divide by zero, dumbass")
     else:
         result = division(a, b)
         await ctx.send(f"Answer: {result}")
