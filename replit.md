@@ -58,5 +58,7 @@ For 24/7 operation, deploy the bot using the Deploy button:
 
 ## Files
 - `main.py` - Main bot code with all commands and event handlers
-- `Procfile` - Original Heroku deployment config (not used in Replit)
-- `requirements.txt` - Python dependencies list (has encoding issues but dependencies installed)
+- `requirements.txt` - Python dependencies list (clean UTF-8, ready for deployment)
+- `Procfile` - Worker process configuration for Railway/Heroku deployment
+- `runtime.txt` - Specifies Python 3.11.0 for deployment platforms
+- `RAILWAY_DEPLOY.md` - Step-by-step guide for deploying to Railway
