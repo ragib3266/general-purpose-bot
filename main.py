@@ -244,7 +244,7 @@ async def pokedex(ctx, name: str):
 
     await ctx.send(embed=embed)
 
-bot.run(os.getenv("TOKEN"))
 
+bot.run(os.getenv("TOKEN"))
 
 
