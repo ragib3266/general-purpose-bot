@@ -16,7 +16,7 @@ intents.message_content = True  # important bc it dont work if u dont set intent
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-bot.run(os.getenv("TOKEN"))
+
 
 
 def adding(a, b):
@@ -244,7 +244,7 @@ async def pokedex(ctx, name: str):
 
     await ctx.send(embed=embed)
 
-
+bot.run(os.getenv("TOKEN"))
 
 
 
