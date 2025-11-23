@@ -85,7 +85,7 @@ async def ghazi(ctx):
 @bot.command()
 async def kyo(ctx):
     kyoid = 1211897276906344478
-    await ctx.send(f"Kyo kill yourself <@{kyoid}>")
+    await ctx.send(f"Kyo toaster bath <@{kyoid}>")
 
 @bot.command()
 async def kyonice(ctx):
