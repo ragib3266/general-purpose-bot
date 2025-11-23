@@ -239,6 +239,10 @@ async def pokedex(ctx, name: str):
 
     await ctx.send(embed=embed)
 
+bot.command()
+async def dingus(ctx):
+    await ctx.send('Dingus you are our favorite brazilian')
+
 
 bot.run(os.getenv("TOKEN"))
 
