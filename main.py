@@ -99,7 +99,8 @@ async def sally(ctx):
 
 @bot.command()
 async def dingus(ctx):
-    await ctx.send('Dingus you are our favorite brazilian')
+    dingusid = 1405598042136252447
+    await ctx.send(f"Dingus you are our favorite brazilian <@{dingusid}>")
 
 @bot.command()
 async def convert(ctx, amount: float, from_currency: str, to_currency: str): # converts currency from one to another
