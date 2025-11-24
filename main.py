@@ -101,11 +101,6 @@ async def convert(ctx, amount: float, from_currency: str, to_currency: str): # c
 
 
 
-    # storage
-    help_message = "\n".join(f"{cmd}: {desc}" for cmd, desc in helptext.items())
-    
-    # Sends the message
-    await ctx.send(f"📜 **Bot Commands:**\n{help_message}")
 
 
 
