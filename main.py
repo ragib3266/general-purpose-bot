@@ -116,7 +116,7 @@ async def pokedex(ctx, name: str):
     response = requests.get(url)
 
     if response.status_code != 200:
-        await ctx.send(f"❌ Pokémon '{name}' not found!")
+        await ctx.send(f"😒 Pokémon '{name}' not found!")
         return
 
     data = response.json()
